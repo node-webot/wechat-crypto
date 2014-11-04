@@ -1,0 +1,38 @@
+{
+  "name": "wechat-crypto",
+  "version": "0.0.5",
+  "description": "微信公共平台加解密库",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config":{
+    "travis-cov": {
+      "threshold": 98
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/node-webot/wechat-crypto.git"
+  },
+  "keywords": [
+    "weixin",
+    "wechat",
+    "enterprise"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "rewire": "*",
+    "istanbul": "*"
+  },
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  }
+}

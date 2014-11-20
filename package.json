@@ -1,6 +1,6 @@
 {
   "name": "wechat-crypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "微信公共平台加解密库",
   "main": "index.js",
   "scripts": {
